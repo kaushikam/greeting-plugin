@@ -1,3 +1,3 @@
-import org.example.greeting.GreetingPlugin
-
-apply<GreetingPlugin>()
+plugins {
+	id("org.example.greeting")
+}
